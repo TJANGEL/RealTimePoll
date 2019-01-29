@@ -1,0 +1,30 @@
+{
+  "name": "realtimepoll",
+  "version": "1.0.0",
+  "description": "real time polling app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TJANGEL/RealTimePoll.git"
+  },
+  "author": "Tom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TJANGEL/RealTimePoll/issues"
+  },
+  "homepage": "https://github.com/TJANGEL/RealTimePoll#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.7",
+    "pusher": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}

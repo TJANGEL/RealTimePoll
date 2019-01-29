@@ -17,6 +17,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // enable CORS
 app.use(cors);
 
+app.use("/poll", poll);
+
 const port = 3000;
 
 // start server

@@ -1,10 +1,10 @@
 const mongoose = require("mongoose");
+const keys = require("./keys");
 
-// map global promises
+// Map global promises
 mongoose.Promise = global.Promise;
-
-// mongoose connect
+// Mongoose Connect
 mongoose
-  .connect("mongodb://tom:angeloni1@ds163044.mlab.com:63044/realtimepoll")
+  .connect(keys.mongoURI)
   .then(() => console.log("MongoDB Connected"))
   .catch(err => console.log(err));
